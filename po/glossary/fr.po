@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnucash 2.0\n"
-"POT-Creation-Date: 2017-10-20 19:04+0200\n"
+"POT-Creation-Date: 2018-08-17 17:11+0200\n"
 "PO-Revision-Date: 2013-12-25 13:16+0100\n"
 "Last-Translator: Sébastien Villemot <sebastien@debian.org>\n"
 "Language-Team: FR\n"
