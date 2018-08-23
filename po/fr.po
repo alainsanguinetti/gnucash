@@ -20,14 +20,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2018-08-17 17:22+0200\n"
-"PO-Revision-Date: 2014-01-18 16:04-0600\n"
+"PO-Revision-Date: 2018-08-17 21:50+0200\n"
 "Last-Translator: Sébastien Villemot <sebastien@debian.org>\n"
 "Language-Team: \n"
-"Language: French\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n>1\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #: borrowed/goffice/go-charmap-sel.c:70
 msgid "Arabic"
@@ -672,6 +673,9 @@ msgid ""
 "after midnight, to get the new date as default for new transactions. It is "
 "not necessary to restart GnuCash."
 msgstr ""
+"Si vous travaillez toute la nuit, il est conseillé de fermer et réouvrir les "
+"registres après minuit pour avoir la nouvelle date par défaut pour les "
+"nouvelles transactions. Il n'est pas nécessaire de redémarrer GnuCash."
 
 #: doc/tip_of_the_day.list.c:95
 msgid ""
@@ -679,6 +683,10 @@ msgid ""
 "from the main accounts hierarchy page. To limit your search to a single "
 "account, start the search from that account's register."
 msgstr ""
+"Pour chercher dans toutes les transactions, lancer une recherche (Editer -> "
+"Chercher...) dans la page des comptes principaux.\n"
+"Pour limiter votre recherche à un seul compte, lancer la recherche à partir "
+"d'un registre de ce compte."
 
 #: doc/tip_of_the_day.list.c:99
 msgid ""
@@ -688,7 +696,6 @@ msgid ""
 msgstr ""
 
 #: doc/tip_of_the_day.list.c:103
-#, fuzzy
 msgid ""
 "There is a theory that if ever anyone discovers what the Universe is for and "
 "why it is here, it will instantly disappear and be replaced with something "
@@ -700,7 +707,9 @@ msgstr ""
 "D'après une théorie, le jour où quelqu'un découvrira exactement à quoi sert "
 "l'Univers et pourquoi il est là, ledit Univers disparaîtra sur-le-champ pour "
 "se voir remplacé par quelque chose de considérablement plus inexplicable et "
-"bizarre. Selon une autre théorie, la chose se serait en fait déjà produite. "
+"bizarre.\n"
+"Selon une autre théorie, la chose se serait en fait déjà produite.\n"
+"\n"
 "Douglas Adams, \"Le dernier restaurant avant la fin du monde\""
 
 #: gnucash/gnome/assistant-acct-period.c:188
@@ -856,14 +865,14 @@ msgid ""
 "new accounts. Accounts in other currencies must be\n"
 "added manually."
 msgstr ""
+"Vous avez sélectionné une devise pour le registre.\n"
+"Cette devise sera utilisée pour les nouveaux comptes.\n"
+"Les comptes dans d'autres devises doivent être ajoutés manuellement."
 
 # po/guile_strings.txt:200
 #: gnucash/gnome/assistant-hierarchy.c:1178
-#, fuzzy
 msgid "Please choose the currency to use for new accounts."
-msgstr ""
-"\n"
-"Veuillez choisir la devise utilisée pour les nouveaux comptes."
+msgstr "Veuillez choisir la devise à utiliser pour les nouveaux comptes."
 
 # po/guile_strings.txt:43
 #. The options dialog gets added to the notebook so it doesn't need a parent.
@@ -1690,7 +1699,6 @@ msgid "Place Holder"
 msgstr "Virtuel"
 
 #: gnucash/gnome/dialog-find-account.c:311
-#, fuzzy
 msgid "Hidden"
 msgstr "C_aché"
 
@@ -2005,20 +2013,18 @@ msgstr "Chercher des transactions"
 
 # messages-i18n.c:17
 #: gnucash/gnome/dialog-imap-editor.c:119
-#, fuzzy
 msgid "Are you sure you want to delete the entries ?"
-msgstr "Confirmez-vous la suppression de cette ligne ?"
+msgstr "Confirmez-vous la suppression de cette ou ces ligne ?"
 
 # messages-i18n.c:164
 #: gnucash/gnome/dialog-imap-editor.c:406
-#, fuzzy
 msgid "Map Account NOT found"
-msgstr "Code du compte"
+msgstr ""
 
 #: gnucash/gnome/dialog-imap-editor.c:505
 #: gnucash/gtkbuilder/dialog-imap-editor.glade:109
 msgid "Bayesian"
-msgstr ""
+msgstr "Bayésien"
 
 # messages-i18n.c:275 po/guile_strings.txt:129
 #. Description
@@ -2041,9 +2047,8 @@ msgstr "Nom du compte"
 
 # messages-i18n.c:309
 #: gnucash/gnome/dialog-imap-editor.c:563
-#, fuzzy
 msgid "Online Id"
-msgstr "En ligne"
+msgstr "Identifiant en ligne"
 
 #. Translators: In this context,
 #. * 'Billing information' maps to the
@@ -2271,6 +2276,8 @@ msgid ""
 "One or more selected invoices have already been posted.\n"
 "Re-check your selection."
 msgstr ""
+"Une ou plusieurs factures ont déjà été publiées.\n"
+"Merci de vérifier à nouveau votre sélection."
 
 # messages-i18n.c:56
 #: gnucash/gnome/dialog-invoice.c:2976
@@ -13243,7 +13250,6 @@ msgid "Match Transactions"
 msgstr "Faire correspondre les transactions"
 
 #: gnucash/gtkbuilder/assistant-hierarchy.glade:20
-#, fuzzy
 msgid ""
 "This assistant will help you create a set of GnuCash accounts for your "
 "assets (such as investments, checking or savings accounts), liabilities "
@@ -13261,6 +13267,11 @@ msgstr ""
 "actifs (comme les investissements, comptes courants ou comptes d'épargne), "
 "vos passifs (emprunts…) et les différents types de revenus et dépenses que "
 "vous pouvez avoir.\n"
+"\n"
+"Vous pourrez choisir un ensemble de comptes proches de vos besoins puis "
+"après avoir fini l'assistant vous pourrez ajouter, renommer, modifier, "
+"supprimer des comptes selon vos besoins. Vous pourrez aussi ajouter des sous-"
+"comptes ainsi que déplacer les comptes d'un compte parent à l'autre.\n"
 "\n"
 "Cliquez sur « Annuler » si vous ne voulez pas créer de nouveaux comptes "
 "maintenant."
@@ -31939,6 +31950,8 @@ msgid ""
 "Check to have trading accounts used for transactions involving more than one "
 "currency or commodity."
 msgstr ""
+"Cochez la case pour avoir des comptes de mouvement utilisés pour les "
+"transactions comportant plusieurs devises ou matières premières."
 
 #: libgnucash/app-utils/business-prefs.scm:158
 msgid "Budget to be used when none has been otherwise specified."
